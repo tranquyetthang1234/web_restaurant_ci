@@ -1,5 +1,5 @@
 <!-- tabs  js-->
-<script src="js/easy-responsive-tabs.js"></script>
+<script src="<?php echo public_url()?>js/easy-responsive-tabs.js"></script>
 <script>
 $(document).ready(function () {
 $('#horizontalTab').easyResponsiveTabs({
@@ -26,8 +26,8 @@ fit: true
 <!-- //tabs-js  -->
 
 <!-- //tabs -->    <!-- //about -->
-<script src="js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+<script src="<?php echo public_url()?>js/jarallax.js"></script>
+	<script src="<?php echo public_url()?>js/SmoothScroll.min.js"></script>
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
@@ -36,8 +36,8 @@ fit: true
 			imgHeight: 768
 		})
 	</script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="<?php echo public_url()?>js/move-top.js"></script>
+	<script type="text/javascript" src="<?php echo public_url()?>js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -58,7 +58,7 @@ fit: true
 
 
 <!-- Date-Picker-JavaScript -->
-				<script src="js/jquery-ui.js"></script>
+				<script src="<?php echo public_url()?>js/jquery-ui.js"></script>
 				<script>
 					$(function() {
 						$( "#datepicker,#datepicker1,#datepicker2" ).datepicker();
@@ -67,7 +67,7 @@ fit: true
 <!-- //Date-Picker-JavaScript -->
 
 <!-- banner text effect js file -->
-		<script src="js/modernizr.custom.72111.js"></script>
+		<script src="<?php echo public_url()?>js/modernizr.custom.72111.js"></script>
 <!-- banner text effect js file -->
 
 

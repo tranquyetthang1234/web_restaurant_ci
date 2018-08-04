@@ -112,7 +112,7 @@
 					</div> 
 					<div class="modal-body">
 					<div class="agileits-w3layouts-info">
-						<img src="images/s1.jpg" alt="" />
+						<img src="<?php echo public_url()?>images/s1.jpg" alt="" />
 						<p>Morbi eget mollis erat, sit amet feugiat nulla. In hac habitasse platea dictumst. Sed ac fermentum eros. Pellentesque tincidunt nisi sit amet dui lobortis, pulvinar pellentesque dui tempor. Sed iaculis, nisl a eleifend porttitor, diam mauris gravida arcu, suscipit ullamcorper nulla diam vitae lorem..</p>
 					</div>
 				</div>
@@ -148,7 +148,7 @@
 										<a href="#myModal" data-toggle="modal"> Read More About Our Recipes</a>
 									</div>
 									<div class="ser-img1">
-										<img src="images/about.png" alt="" />
+										<img src="<?php echo public_url()?>images/about.png" alt="" />
 									</div>
 									<div class="ser-info">
 										<p>Integer sed blandit nisi, eget tempor nulla. Vivamus ut mi nec quam iaculis ultricies. 
@@ -167,7 +167,7 @@
 										<h3 class="title ab">Our Menu</h3>
 								<div class="services-grids">
 									<div class="col-md-6 menugrid">
-											<img src="images/b1.jpg" alt="" />
+											<img src="<?php echo public_url()?>images/b1.jpg" alt="" />
 									</div>
 									<div class="col-md-6 menugrid1 innergrid">
 											<h3>Món Ăn</h3>
@@ -222,7 +222,7 @@
 								<div class="services-grids">
 									<div class="about-2">
 										<h3>We select fresh and natural products</h3>
-										<img src="images/burger.jpg" alt="" />
+										<img src="<?php echo public_url()?>images/burger.jpg" alt="" />
 									</div>
 									<div class="about-info2">
 										<div class="top-grid">
@@ -271,7 +271,7 @@
 									</div>
 									<div class="about-info2">
 										<div class="col-md-6 last-grid">
-											<img src="images/b11.jpg" alt="" />
+											<img src="<?php echo public_url()?>images/b11.jpg" alt="" />
 										</div>
 										<div class="col-md-6 last-grid1">
 											<h3>High quality restaurant</h3>
@@ -354,7 +354,7 @@
 					<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 				</ul>
-				<img src="images/chef1.jpg" alt=" " class="img-responsive">
+				<img src="<?php echo public_url()?>images/chef1.jpg" alt=" " class="img-responsive">
 			</div>
 			<h3>Jenny beck</h3>
 			<p>Pantry chef</p>
@@ -366,7 +366,7 @@
 					<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 				</ul>
-				<img src="images/chef2.jpg" alt=" " class="img-responsive">
+				<img src="<?php echo public_url()?>images/chef2.jpg" alt=" " class="img-responsive">
 			</div>
 			<h3>elvis rich</h3>
 			<p>western chef</p>
@@ -378,7 +378,7 @@
 					<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 				</ul>
-				<img src="images/chef3.jpg" alt=" " class="img-responsive">
+				<img src="<?php echo public_url()?>images/chef3.jpg" alt=" " class="img-responsive">
 			</div>
 			<h3>steve mark</h3>
 			<p>Master chef</p>
@@ -390,7 +390,7 @@
 					<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#" class="agileinfo_google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 				</ul>
-				<img src="images/chef4.jpg" alt=" " class="img-responsive">
+				<img src="<?php echo public_url()?>images/chef4.jpg" alt=" " class="img-responsive">
 			</div>
 			<h3>jewel cher</h3>
 			<p>gravy specialist</p>
@@ -407,9 +407,9 @@
 			</div>
 			<div class="w3layouts_gallery_grids">	
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p1.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p1.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p1.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p1.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Butter pizza</h3></div>
 							</div>
@@ -417,9 +417,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p2.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p2.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p2.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p2.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Pasta</h3></div>
 							</div>
@@ -427,9 +427,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p13.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p13.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p13.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p13.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Lemon cheese</h3></div>
 							</div>
@@ -437,9 +437,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p4.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p4.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p4.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p4.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Toasted puff</h3></div>
 							</div>
@@ -447,9 +447,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p6.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p6.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p6.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p6.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Burger Cheese</h3></div>
 							</div>
@@ -457,9 +457,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p5.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p5.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p5.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p5.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>fried broccoli</h3></div>
 							</div>
@@ -467,9 +467,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p7.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p7.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p7.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p7.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Apple almond salad</h3></div>
 							</div>
@@ -477,9 +477,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p8.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p8.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p8.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p8.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Roasted meat</h3></div>
 							</div>
@@ -487,9 +487,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p9.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p9.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p9.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p9.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Pasta rolls</h3></div>
 							</div>
@@ -497,9 +497,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p10.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p10.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p10.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p10.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>fruits</h3></div>
 							</div>
@@ -507,9 +507,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p11.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p11.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p11.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p11.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Meat Pizza</h3></div>
 							</div>
@@ -517,9 +517,9 @@
 					</a>
 				</div>
 				<div class="col-md-3 w3layouts_gallery_grid">
-					<a href="images/p12.jpg" class="lsb-preview" data-lsb-group="header">
+					<a href="<?php echo public_url()?>images/p12.jpg" class="lsb-preview" data-lsb-group="header">
 						<div class="w3layouts_news_grid">
-							<img src="images/p12.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo public_url()?>images/p12.jpg" alt=" " class="img-responsive">
 							<div class="w3layouts_news_grid_pos">
 								<div class="wthree_text"><h3>Boiled eggs</h3></div>
 							</div>
@@ -531,7 +531,7 @@
 </div>
 <!-- //gallery -->
 <!-- gallery js -->
-	<script src="js/lsb.min.js"></script>
+	<script src="<?php echo public_url()?>js/lsb.min.js"></script>
 	<script>
 	$(window).load(function() {
 		  $.fn.lightspeedBox();
@@ -554,7 +554,7 @@
 							<h4>David Elton <span>Daily customer</span></h4>
 						</div>
 						<div class="client-img">
-							<img src="images/t1.jpg" alt="" />
+							<img src="<?php echo public_url()?>images/t1.jpg" alt="" />
 						</div>
 					</li>
 					<li>
@@ -565,7 +565,7 @@
 							<h4>Marvin gaye <span>Special customer</span></h4>
 						</div>
 						<div class="client-img">
-							<img src="images/t2.jpg" alt="" />
+							<img src="<?php echo public_url()?>images/t2.jpg" alt="" />
 						</div>
 					</li>
 					<li>
@@ -576,7 +576,7 @@
 							<h4>Jawel Slash <span>Recent visitor</span></h4>
 						</div>
 						<div class="client-img">
-							<img src="images/t3.jpg" alt="" />
+							<img src="<?php echo public_url()?>images/t3.jpg" alt="" />
 						</div>
 					</li>
 				</ul>
@@ -607,7 +607,7 @@
 								
 							});
 					</script>
-					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+					<script type="text/javascript" src="<?php echo public_url()?>js/jquery.flexisel.js"></script>
 			</div>
 		</div>
 	</div>

@@ -10,33 +10,33 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 
 <!-- Default-JavaScript-File -->
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="<?php echo public_url()?>js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="<?php echo public_url()?>js/bootstrap.js"></script>
 <!-- //Default-JavaScript-File -->
 
-<link rel="stylesheet" href="css/easy-responsive-tabs.css"><!-- easy responsive tabs css -->
+<link rel="stylesheet" href="<?php echo public_url()?>css/easy-responsive-tabs.css"><!-- easy responsive tabs css -->
 
-<link rel="stylesheet" href="css/jquery-ui.css" type="text/css" media="all"><!-- date-picker css-->
+<link rel="stylesheet" href="<?php echo public_url()?>css/jquery-ui.css" type="text/css" media="all"><!-- date-picker css-->
 
 <!-- gallery -->
-	<link href="css/lsb.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo public_url()?>css/lsb.css" rel="stylesheet" type="text/css">
 <!-- //gallery -->
 
 <!-- banner text effect css files -->
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/style3.css" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/style3.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/normalize.css" />
 <!-- banner text effect css files -->
 
 <!-- logo text effect css files -->
-	<link rel="stylesheet" type="text/css" href="css/demo1.css" />
-	<link rel="stylesheet" type="text/css" href="css/linkstyles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/demo1.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/linkstyles.css" />
 <!-- //logo text effect css files -->
 	
 <!-- default css files -->
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="<?php echo public_url()?>css/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" href="<?php echo public_url()?>css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" href="<?php echo public_url()?>css/font-awesome.min.css" />
 <!-- default css files -->
 	
 <!--web font-->

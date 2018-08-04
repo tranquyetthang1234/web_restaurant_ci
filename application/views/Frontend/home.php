@@ -1,4 +1,5 @@
 <!-- banner -->
+	<?php print_r($custumer);?>
 	<div class="banner jarallax">
 		<div class="agileinfo-dot">
 			<div class="header">
@@ -543,42 +544,23 @@
 	<div class="customer jarallax" id="customer">
 		<div class="agileinfo-dot">
 		<div class="container">
-			<h3>Ý Kiến Đanh Giá Từ Khách Hàng</h3>
+			<h3>Ý Kiến Đánh Giá Từ Khách Hàng</h3>
 			<div class="customer-grids">
-				<ul id="flexiselDemo1">			
+				<ul id="flexiselDemo1">	
+				<?php 
+					foreach ($custumer as $key => $value) {
+				?>		
 					<li>
 						<div class="customer-grid">
-							<p> Cras aliquam ligula id felis rhoncus facilisis. Pellentesque habitant 
-								morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
-								Donec auctor magna id purus lacinia hendrerit.</p>
-							<h4>David Elton <span>Daily customer</span></h4>
+							<p> <?= $value->content?>.</p>
+							<h4> <?= $value->name?> <span> <?= $value->job?></span></h4>
 						</div>
 						<div class="client-img">
 							<img src="<?php echo public_url()?>images/t1.jpg" alt="" />
 						</div>
-					</li>
-					<li>
-						<div class="customer-grid">
-							<p> Cras aliquam ligula id felis rhoncus facilisis. Pellentesque habitant 
-								morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
-								Donec auctor magna id purus lacinia hendrerit.</p>
-							<h4>Marvin gaye <span>Special customer</span></h4>
-						</div>
-						<div class="client-img">
-							<img src="<?php echo public_url()?>images/t2.jpg" alt="" />
-						</div>
-					</li>
-					<li>
-						<div class="customer-grid">
-							<p> Cras aliquam ligula id felis rhoncus facilisis. Pellentesque habitant 
-								morbi tristique senectus et netus et malesuada fames ac turpis egestas.  
-								Donec auctor magna id purus lacinia hendrerit.</p>
-							<h4>Jawel Slash <span>Recent visitor</span></h4>
-						</div>
-						<div class="client-img">
-							<img src="<?php echo public_url()?>images/t3.jpg" alt="" />
-						</div>
-					</li>
+					</li>	
+				
+				<?php }?>
 				</ul>
 				<script type="text/javascript">
 							$(window).load(function() {

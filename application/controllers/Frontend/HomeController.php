@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class HomeController extends CI_Controller {
-
+    public  $data = array();
     public function __construct()
     {
         parent::__construct();
@@ -14,7 +14,10 @@ class HomeController extends CI_Controller {
     public function index()
     {
         $this->data['temp'] = 'Frontend/home';
-        $this->data['listMenu'] =
+        $this->data['custumer'] =  $this->db->where(['status' => 1])->get('custumer')->result_object();
+
+
+        
         $this->load->view('Frontend/layout/master',$this->data);
     }
 

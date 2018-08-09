@@ -40,8 +40,9 @@
                  <?php endif;?>
             </div>
               <div class="adv-table" style="margin-top:6px;">
-              <table  style="" class="display table table-bordered table-striped" id="">
-              <thead>
+                  <div class="table-reponsive">
+                     <table  style="" class="display table table-bordered table-striped" id="">
+               <thead>
               <tr>
                   <th>STT</th>
                   <th style="width:25px"><input class="checksall" type="checkbox"></th>
@@ -50,14 +51,14 @@
                   <th class="hidden-phone" >Nghề nghiệp</th>
                  
                   <th class="hidden-phone" >Nội dung</th>
-                   <th class="hidden-phone" >Trạng thái ẩn hiện</th>
+                   <th class="hidden-phone"style="witd:130px" >Trạng thái ẩn hiện</th>
                   
                   <th class="hidden-phone" colspan="2">Tùy Chọn</th>
                  
               </tr>
               </thead>
               <tbody>
-		
+    
              <?php $i= 1;foreach ($list as $key => $value) { ?>   
               <tr class="gradeX">
                   <td><?=$i++?></td>
@@ -70,13 +71,14 @@
                   <td><?=$value->content?></td>
                   
                   <td><?= ($value->status) ==1 ? 'Đã xác nhận' :'Chưa xác nhận';?></td>
-                  <td class=""><a href="<?php echo base_url()?>index.php/Backend/CustumerController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
-                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>index.php/Backend/CustumerController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
+                  <td class=""><a class="btn btn-primary" href="<?php echo base_url()?>index.php/Backend/CustumerController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
+                   <td class=""> <a class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>index.php/Backend/CustumerController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
               </tr>
               <?php }?>
              
              
               </table>
+                  </div>
              </form> 
               </div>
               </div>

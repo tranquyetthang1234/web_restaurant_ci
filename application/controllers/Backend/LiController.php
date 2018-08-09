@@ -118,11 +118,7 @@ class LiController extends MY_Controller {
                         'status' => ($this->input->post('status') =='on') ? 1 :0 
                     ];
                 }
-                
-                
-                   
-         
-
+          
            if($this->Li_model->update($item->id,$data))
                 {
                     //tạo ra nội dung thông báo

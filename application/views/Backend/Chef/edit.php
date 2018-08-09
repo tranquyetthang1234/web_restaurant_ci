@@ -19,7 +19,7 @@
 					<h3 class="panel-title">Sửa</h3>
 				</div>
 				<div class="panel-body">
-					<form action="<?php echo base_url()?>index.php/Backend/ChefController/edit/<?php echo $item->id?>" enctype="multipart/form-data" method="POST" role="form">
+					<form action="<?php echo base_url()?>Backend/ChefController/edit/<?php echo $item->id?>" enctype="multipart/form-data" method="POST" role="form">
 						
 						<div class="form-group <?php echo form_error('name') ? 'has-error' : ''; ?>">
 							<label for="">Tên</label>
@@ -62,7 +62,7 @@
 								<input type="checkbox" name="status" id="" placeholder="Input field">
 						</div>
 						<button type="submit" class="btn btn-primary">Cập nhật</button>
-								<a href="<?php echo base_url()?>index.php/Backend/ChefController/"><span class="btn btn-info">Quay lại</span></a>
+								<a href="<?php echo base_url()?>Backend/ChefController/"><span class="btn btn-info">Quay lại</span></a>
 					</form>
 					
 				</div>

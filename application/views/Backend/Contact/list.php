@@ -13,12 +13,10 @@
               </header>
               
               <div class="panel-body">
-               <form action="<?php echo base_url()?>index.php/Backend/ContactController/check" method="POST">
+               <form action="<?php echo base_url()?>Backend/ContactController/check" method="POST">
                <div class="btn btn-shadow btn-success "><a href="<?php
-                echo base_url();?>index.php/Backend/ContactController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
+                echo base_url();?>Backend/ContactController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
                 
-        
-
                <div class="btn-group" id="check">
                           <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle " type="button" aria-expanded="false">Tùy chọn <span class="caret"></span></button>
                               <ul role="menu" class="dropdown-menu">
@@ -66,8 +64,8 @@
                   <td><?=$value->email?></td>
                    <td><?=$value->content?></td>
                  
-                  <td class=""><a href="<?php echo base_url()?>index.php/Backend/ContactController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
-                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>index.php/Backend/ContactController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
+                  <td class=""><a href="<?php echo base_url()?>Backend/ContactController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
+                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>Backend/ContactController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
               </tr>
               <?php }?>
              

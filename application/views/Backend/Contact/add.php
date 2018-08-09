@@ -19,7 +19,7 @@
 					<h3 class="panel-title">Thêm mới đầu bếp</h3>
 				</div>
 				<div class="panel-body">
-					<form action="<?php echo base_url()?>index.php/Backend/ContactController/add" method="POST" role="form" enctype="multipart/form-data">
+					<form action="<?php echo base_url()?>Backend/ContactController/add" method="POST" role="form" enctype="multipart/form-data">
 						<div class="form-group <?php echo form_error('name') ? 'has-error' : ''; ?>">
 							<label for="">Tên</label>
 							 <?php echo form_error('name');  ?>
@@ -45,7 +45,7 @@
 						
 						
 						<button type="submit" class="btn btn-primary">Thêm</button>
-								<a href="<?php echo base_url()?>index.php/Backend/ContactController/"><span class="btn btn-info">Quay lại</span></a>
+								<a href="<?php echo base_url()?>Backend/ContactController/"><span class="btn btn-info">Quay lại</span></a>
 					</form>
 					
 				</div>

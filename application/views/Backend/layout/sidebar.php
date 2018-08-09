@@ -261,8 +261,8 @@
                           <span>Đặt Bàn</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/BookTableController/">Danh sách đặt bàn</a></li>
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/BookTableController/add">Thêm mới</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/BookTableController/">Danh sách đặt bàn</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/BookTableController/add">Thêm mới</a></li>
                           
                       </ul>
                   </li>
@@ -273,10 +273,10 @@
                           <span>Dịch Vụ Và Chef</span>
                       </a>
                       <ul class="sub active">
-                          <li class="active"><a  href="<?php echo base_url()?>index.php/Backend/ServiceController/" class="active">Danh sách dịch vụ</a></li>
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/ServiceController/add">Thêm mới Dich vụ</a></li>
-                         <li class="active"><a  href="<?php echo base_url()?>index.php/Backend/ChefController/" class="active">Danh sách chef</a></li>
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/ChefController/add">Thêm mới Chef</a></li>
+                          <li class="active"><a  href="<?php echo base_url()?>Backend/ServiceController/" class="active">Danh sách dịch vụ</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ServiceController/add">Thêm mới Dich vụ</a></li>
+                         <li class="active"><a  href="<?php echo base_url()?>Backend/ChefController/" class="active">Danh sách chef</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ChefController/add">Thêm mới Chef</a></li>
                       </ul>
                   </li>
 
@@ -286,8 +286,8 @@
                           <span>Thực đơn món ăn</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/TypeEatController/">Loại món</a></li>
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/EatController/">Món ăn</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/TypeEatController/">Loại món</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/EatController/">Món ăn</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -296,8 +296,8 @@
                           <span>Liên Hệ</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/ContactController/">Liên hệ khách hàng</a></li>
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/EatController/">Món ăn</a></li> hồi</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ContactController/">Liên hệ khách hàng</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ContactController/add">Thêm mới</a></li> </a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -306,8 +306,8 @@
                           <span>Nhận tin</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="basic_table.html">Danh sách nhận tin</a></li>
-                          <li><a  href="responsive_table.html">Thêm  mới</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ContactController/">Danh sách nhận tin</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ContactController/">Thêm  mới</a></li>
                           
                       </ul>
                   </li>
@@ -317,8 +317,8 @@
                           <span>Img và Custumer</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="inbox.html">Quản lý thư viện hình ảnh </a></li> 
-                          <li><a  href="<?php echo base_url()?>index.php/Backend/CustumerController/"> Đánh giá của khách hàng </a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/LiController/">Quản lý thư viện hình ảnh </a></li> 
+                          <li><a  href="<?php echo base_url()?>Backend/CustumerController/"> Đánh giá của khách hàng </a></li>
                         
                       </ul>
                   </li>
@@ -328,7 +328,7 @@
                           <span>Cấu Hình</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="morris.html">Cấu hình chung</a></li>
+                          <li><a  href="<?php echo base_url()?>Backend/ConfigController">Cấu hình chung</a></li>
                           <li><a  href="chartjs.html">Cấu hình giửi mail</a></li>
                           <li><a  href="flot_chart.html">Config css</a></li>
                           <li><a  href="xchart.html">Cấu hình khác</a></li>

@@ -19,7 +19,7 @@
 					<h3 class="panel-title">Sửa hình ảnh</h3>
 				</div>
 				<div class="panel-body">
-					<form action="<?php echo base_url()?>index.php/Backend/LiController/edit/<?php echo $item->id?>" method="POST" role="form" enctype="multipart/form-data">
+					<form action="<?php echo base_url()?>Backend/LiController/edit/<?php echo $item->id?>" method="POST" role="form" enctype="multipart/form-data">
 						
 					
 						<div class="form-group <?php echo form_error('name') ? 'has-error' : ''; ?>">

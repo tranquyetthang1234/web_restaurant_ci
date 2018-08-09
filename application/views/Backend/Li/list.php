@@ -13,9 +13,9 @@
               </header>
               
               <div class="panel-body">
-               <form action="<?php echo base_url()?>index.php/Backend/LiController/check" method="POST">
+               <form action="<?php echo base_url()?>Backend/LiController/check" method="POST">
                <div class="btn btn-shadow btn-success "><a href="<?php
-                echo base_url();?>index.php/Backend/LiController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
+                echo base_url();?>Backend/LiController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
                 
 
                <div class="btn-group" id="check">

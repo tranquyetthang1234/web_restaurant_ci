@@ -145,7 +145,7 @@
 										<h3><?= $config->title?> </h3>
 										<p><?= $config->Introduction1?>.
 										</p>
-										<a href="#myModal" data-toggle="modal"> Read More About Our Recipes</a>
+										<a href="#myModal" data-toggle="modal"> Xem nhiều hơn tại đây !</a>
 									</div>
 									<div class="ser-img1">
 										<img src="<?php echo public_url()?>images/about.png" alt="" />
@@ -275,7 +275,7 @@
 <div class="ourchefs" id="chefs">
 	<div class="container">
 		<div class="w3ls-heading">
-			<h3>Các Đầu Bếp Hàng Đầu</h3>
+			<h3>Đội ngũ nhân viên</h3>
 		</div>
 		<?php foreach ($chef as $key => $value) {
 			# code...
@@ -446,10 +446,7 @@
 <div class="footer">
 		<div class="col-md-6 footer-left">
 			<h3>Fresh Food</h3>
-			<p>Các sản phẩm của nhà hàng chúng tôi luôn làm hài lòng tất cả mọi người với lần đầu gé thắm và thưởng thức</p>
-			<p>FOOD RESTAURANT..</p>
-			<p>FOOD RESTAURANT..</p>
-			<p>FOOD RESTAURANT..</p>
+			<?=$config->footer?>
 		</div>
 		<div class="col-md-6 footer-right">
 			<section class="subscribe" id="subscribe">

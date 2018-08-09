@@ -13,9 +13,9 @@
               </header>
               
               <div class="panel-body">
-               <form action="<?php echo base_url()?>index.php/Backend/BookTableController/check" method="POST">
+               <form action="<?php echo base_url()?>Backend/BookTableController/check" method="POST">
                <div class="btn btn-shadow btn-success "><a href="<?php
-                echo base_url();?>index.php/Backend/BookTableController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
+                echo base_url();?>Backend/BookTableController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
                 
         
 
@@ -71,8 +71,8 @@
                   <td><?=$value->date?></td>
                   
                   
-                  <td class=""><a href="<?php echo base_url()?>index.php/Backend/BookTableController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
-                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>index.php/Backend/BookTableController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
+                  <td class=""><a href="<?php echo base_url()?>Backend/BookTableController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
+                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>Backend/BookTableController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
               </tr>
               <?php }?>
              

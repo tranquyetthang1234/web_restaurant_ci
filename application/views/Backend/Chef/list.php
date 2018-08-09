@@ -13,9 +13,9 @@
               </header>
               
               <div class="panel-body">
-               <form action="<?php echo base_url()?>index.php/Backend/ChefController/check" method="POST">
+               <form action="<?php echo base_url()?>Backend/ChefController/check" method="POST">
                <div class="btn btn-shadow btn-success "><a href="<?php
-                echo base_url();?>index.php/Backend/ChefController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
+                echo base_url();?>Backend/ChefController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
                 
         
 
@@ -68,8 +68,8 @@
                   <td><?=$value->major?></td>
                    <td><?= ($value->status) ==1 ? 'Hiện thị' :'Tạm ẩn';?></td>
                  
-                  <td class=""><a href="<?php echo base_url()?>index.php/Backend/ChefController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
-                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>index.php/Backend/ChefController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
+                  <td class=""><a href="<?php echo base_url()?>Backend/ChefController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
+                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>Backend/ChefController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
               </tr>
               <?php }?>
              

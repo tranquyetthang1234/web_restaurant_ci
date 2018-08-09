@@ -8,7 +8,7 @@
       </footer>
       <!--footer end-->
   </section>
-
+ 
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="<?php echo admin_url()?>/js/jquery.js"></script>
     <script src="<?php echo admin_url()?>/js/jquery-ui-1.9.2.custom.min.js"></script>
@@ -31,7 +31,7 @@
 <script src="<?php echo admin_url()?>/js/dynamic_table_init.js"></script>
     <!-- script for this page only-->
     <script src="<?php echo admin_url()?>/js/all-chartjs.js"></script>
-
+ <script type="text/javascript" src="<?php echo admin_url()?>/ckeditor/ckeditor.js"></script>
 
   </body>
 

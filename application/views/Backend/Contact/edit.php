@@ -19,7 +19,7 @@
 					<h3 class="panel-title">Sửa</h3>
 				</div>
 				<div class="panel-body">
-					<form action="<?php echo base_url()?>index.php/Backend/ContactController/edit/<?php echo $item->id?>" method="POST" role="form">
+					<form action="<?php echo base_url()?>Backend/ContactController/edit/<?php echo $item->id?>" method="POST" role="form">
 						
 					
 						<div class="form-group <?php echo form_error('name') ? 'has-error' : ''; ?>">
@@ -44,7 +44,7 @@
 							<input type="text" name="content" value="<?php echo  $item->content?>" class="form-control" id="" placeholder="Nhập vào nội dung ..">
 						</div>
 						<button type="submit" class="btn btn-primary">Cập nhật</button>
-								<a href="<?php echo base_url()?>index.php/Backend/ContactController/"><span class="btn btn-info">Quay lại</span></a>
+								<a href="<?php echo base_url()?>Backend/ContactController/"><span class="btn btn-info">Quay lại</span></a>
 					</form>
 					
 				</div>

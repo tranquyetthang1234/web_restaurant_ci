@@ -13,9 +13,9 @@
               </header>
               
               <div class="panel-body">
-               <form action="<?php echo base_url()?>index.php/Backend/EatController/check" method="POST">
+               <form action="<?php echo base_url()?>Backend/EatController/check" method="POST">
                <div class="btn btn-shadow btn-success "><a href="<?php
-                echo base_url();?>index.php/Backend/EatController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
+                echo base_url();?>Backend/EatController/add"><i class="glyphicon glyphicon-plus"></i>Thêm mới</a></div>
                 
         
 
@@ -67,8 +67,8 @@
                    <?php  $type_eat  = $this->db->where(['id' => $value->id_type])->get('type_eat')->first_row();?>
                     <td><?php print_r($type_eat->name)?></td>
                   <td class="center hidden-phone  "><?= ($value->status == 1 ) ? 'Hiện' : 'Ẩn' ?></td>
-                  <td class=""><a href="<?php echo base_url()?>index.php/Backend/EatController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
-                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>index.php/Backend/EatController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
+                  <td class=""><a href="<?php echo base_url()?>Backend/EatController/edit/<?php echo $value->id ?>"><i class="glyphicon glyphicon-pencil "></i> Sửa</a></td>
+                   <td class=""> <a onclick="return confirm('Bạn có chắc chắn xóa ?')" href="<?php echo base_url()?>Backend/EatController/del/<?php echo $value->id ?>"><i class="glyphicon glyphicon-trash "></i> Xóa</a></td>
               </tr>
               <?php }?>
              

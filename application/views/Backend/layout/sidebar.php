@@ -7,7 +7,7 @@
               <div data-original-title="Toggle Navigation" data-placement="right" class="fa fa-bars tooltips"></div>
           </div>
           <!--logo start-->
-          <a href="index.html" class="logo" >Flat<span>lab</span></a>
+          <a href="index.html" class="logo" >Trang <span>Quản trị</span></a>
           <!--logo end-->
           <div class="nav notify-row" id="top_menu">
             <!--  notification start -->
@@ -49,8 +49,8 @@
                               </div>
                           </a>
                       </li>
-                      <li>
-                          <a href="#">
+                      <li class="sub-menu dcjq-parent-li">
+                          <a href="#" class="active" >
                               <div class="task-info">
                                   <div class="desc">Iphone Development</div>
                                   <div class="percent">87%</div>
@@ -256,48 +256,48 @@
                   </li>
 
                   <li class="sub-menu">
-                      <a href="javascript:;">
+                      <a href="javascript:;"  <?php if($this->uri->segment(2)=="BookTableController"){echo 'class="active dcjq-parent"';}?>>
                           <i class="fa fa-laptop"></i>
                           <span>Đặt Bàn</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>Backend/BookTableController/">Danh sách đặt bàn</a></li>
-                          <li><a  href="<?php echo base_url()?>Backend/BookTableController/add">Thêm mới</a></li>
+                          <li <?php if(($this->uri->segment(2)=="BookTableController")&&($this->uri->segment(3)!="add")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/BookTableController/">Danh sách đặt bàn</a></li>
+                          <li <?php if(($this->uri->segment(3)=="add")&&($this->uri->segment(2)=="BookTableController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/BookTableController/add">Thêm mới</a></li>
                           
                       </ul>
                   </li>
 
                   <li class="sub-menu active">
-                      <a href="javascript:;">
+                      <a href="javascript:;" <?php if(($this->uri->segment(2)=="ChefController")||($this->uri->segment(2)=="ServiceController")){echo 'class="active dcjq-parent"';}?>>
                           <i class="fa fa-book"></i>
                           <span>Dịch Vụ Và Chef</span>
                       </a>
                       <ul class="sub active">
-                          <li class="active"><a  href="<?php echo base_url()?>Backend/ServiceController/" class="active">Danh sách dịch vụ</a></li>
-                          <li><a  href="<?php echo base_url()?>Backend/ServiceController/add">Thêm mới Dich vụ</a></li>
-                         <li class="active"><a  href="<?php echo base_url()?>Backend/ChefController/" class="active">Danh sách chef</a></li>
-                          <li><a  href="<?php echo base_url()?>Backend/ChefController/add">Thêm mới Chef</a></li>
+                          <li <?php if(($this->uri->segment(2)=="ServiceController") &&($this->uri->segment(3)!="add")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/ServiceController/" class="active">Danh sách dịch vụ</a></li>
+                          <li <?php if(($this->uri->segment(3)=="add")&&($this->uri->segment(2)=="ServiceController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/ServiceController/add">Thêm mới Dich vụ</a></li>
+                         <li <?php if(($this->uri->segment(2)=="ChefController")&&($this->uri->segment(3)!="add")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/ChefController/" class="active">Danh sách chef</a></li>
+                          <li <?php if(($this->uri->segment(3)=="add")&&($this->uri->segment(2)=="ChefController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/ChefController/add">Thêm mới Chef</a></li>
                       </ul>
                   </li>
 
                   <li class="sub-menu">
-                      <a href="javascript:;">
+                      <a href="javascript:;" <?php if(($this->uri->segment(2)=="TypeEatController")||($this->uri->segment(2)=="EatController")){echo 'class="active dcjq-parent"';}?>>
                           <i class="fa fa-cogs"></i>
                           <span>Thực đơn món ăn</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>Backend/TypeEatController/">Loại món</a></li>
-                          <li><a  href="<?php echo base_url()?>Backend/EatController/">Món ăn</a></li>
+                          <li <?php if(($this->uri->segment(2)=="TypeEatController")&&($this->uri->segment(3)!="add")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/TypeEatController/">Loại món</a></li>
+                          <li <?php if(($this->uri->segment(2)=="EatController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/EatController/">Món ăn</a></li>
                       </ul>
                   </li>
-                  <li class="sub-menu">
-                      <a href="javascript:;" >
+                  <li class="sub-menu ">
+                      <a href="javascript:;" <?php if($this->uri->segment(2)=="ContactController"){echo 'class="active dcjq-parent"';}?> >
                           <i class="fa fa-tasks"></i>
                           <span>Liên Hệ</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>Backend/ContactController/">Liên hệ khách hàng</a></li>
-                          <li><a  href="<?php echo base_url()?>Backend/ContactController/add">Thêm mới</a></li> </a></li>
+                          <li <?php if(($this->uri->segment(2)=="ContactController")&&($this->uri->segment(3)!="add")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/ContactController/">Liên hệ khách hàng</a></li>
+                          <li <?php if($this->uri->segment(3)=="add"){echo 'class="active "';}?>><a  href="<?php echo base_url()?>Backend/ContactController/add">Thêm mới</a></li> </a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -312,24 +312,24 @@
                       </ul>
                   </li>
                   <li class="sub-menu">
-                      <a href="javascript:;" >
+                      <a href="javascript:;"<?php if(($this->uri->segment(2)=="CustumerController")||($this->uri->segment(2)=="LiController")){echo 'class="active dcjq-parent"';}?> >
                           <i class=" fa fa-envelope"></i>
                           <span>Img và Custumer</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>Backend/LiController/">Quản lý thư viện hình ảnh </a></li> 
-                          <li><a  href="<?php echo base_url()?>Backend/CustumerController/"> Đánh giá của khách hàng </a></li>
+                          <li <?php if(($this->uri->segment(2)=="LiController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/LiController/">Quản lý thư viện hình ảnh </a></li> 
+                          <li <?php if(($this->uri->segment(2)=="CustumerController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/CustumerController/"> Đánh giá của khách hàng </a></li>
                         
                       </ul>
                   </li>
                   <li class="sub-menu">
-                      <a href="javascript:;">
+                      <a href="javascript:;" <?php if(($this->uri->segment(2)=="ConfigController")||($this->uri->segment(2)=="MailController")){echo 'class="active dcjq-parent"';}?>>
                           <i class=" fa fa-bar-chart-o"></i>
                           <span>Cấu Hình</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?php echo base_url()?>Backend/ConfigController">Cấu hình chung</a></li>
-                          <li><a  href="chartjs.html">Cấu hình giửi mail</a></li>
+                          <li  <?php if(($this->uri->segment(2)=="ConfigController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/ConfigController">Cấu hình chung</a></li>
+                          <li <?php if(($this->uri->segment(2)=="MailController")){echo 'class="active dcjq-parent"';}?>><a  href="<?php echo base_url()?>Backend/MailController/">Cấu hình giửi mail</a></li>
                           <li><a  href="flot_chart.html">Config css</a></li>
                           <li><a  href="xchart.html">Cấu hình khác</a></li>
                       </ul>

@@ -428,8 +428,9 @@
 <!-- //contact form -->
 
 <!-- map -->
-<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56801282.36779669!2d-131.48418691999598!3d29.66539724812115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dc13a009bba0319!2sPret+A+Manger!5e0!3m2!1sen!2sin!4v1491030489371"></iframe>
+<div class="map" >
+	<div id="googleMap" style="width:100%;height:400px;"></div>
+		
 		<div class="agile_map_grid">
 			<div class="agile_map_grid1">
 				<h3>Thông tin liên hệ</h3>
@@ -472,3 +473,18 @@
 <div class="copyright-agile">
 	<p>&copy; 2018 Restaurant. All rights reserved | Design by </a></p>
 </div>
+<h1>My First Google Map</h1>
+
+
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(10.825586, 106.684878),
+    zoom:15,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjY4TVX9QnkXw3Zkiayeh5i1aO_tnkk7o&callback=myMap"></script>

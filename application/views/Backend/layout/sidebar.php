@@ -1,5 +1,7 @@
 <body>
-
+<?php $login = $this->session->userdata('user_id_login');
+        
+    ?>
   <section id="container" class="">
       <!--header start-->
       <header class="header white-bg">
@@ -225,14 +227,14 @@
                   <li class="dropdown">
                       <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                           <img alt="" src="img/avatar1_small.jpg">
-                          <span class="username">Jhon Doue</span>
+                          <span class="username"><?= $login->name?></span>
                           <b class="caret"></b>
                       </a>
                       <ul class="dropdown-menu extended logout">
                           <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                           <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
                           <li><a href="#"><i class="fa fa-bell-o"></i> Notification</a></li>
-                          <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                          <li><a href="<?php echo base_url()?>Backend/LoginController/logout/<?=$login->id?>"><i class="fa fa-key"></i> Log Out</a></li>
                       </ul>
                   </li>
                   <!-- user login dropdown end -->

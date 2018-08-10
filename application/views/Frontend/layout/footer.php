@@ -71,7 +71,10 @@ fit: true
 <!-- banner text effect js file -->
 
 
-
+ <script type="text/javascript" src="<?php echo public_url()?>js/wow.js"></script>
+   <script type="text/javascript">
+      new WOW().init();
+   </script>
 </body>
 <!-- //Body -->
 </html>

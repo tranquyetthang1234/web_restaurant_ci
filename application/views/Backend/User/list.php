@@ -9,7 +9,6 @@
                 <a href="javascript:;" class="fa fa-chevron-down"></a>
                 <a href="javascript:;" class="fa fa-times"></a>
              </span>
-          
               </header>
               
               <div class="panel-body">
@@ -20,16 +19,15 @@
         
 
                <div class="btn-group" id="check">
-                          <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle " type="button" aria-expanded="false">Tùy chọn <span class="caret"></span></button>
-                              <ul role="menu" class="dropdown-menu">
-                                      <li><a href="#">Action</a></li>
-                                      <li><input type="submit" value="Xóa các mục đã chọn" name="delcheck"  onclick=" return confirm('Bạn đã chắc chắn ?')" class=" btn-block"></li>
-                                      <li><input type="submit" name="statuscheck" onclick="return confirm('Bạn chắc chắn đã chọn ?')" value="Thay đổi trạng thái ẩn hiện"  class=" btn-block"></li>
-                                      <li class="divider"></li>
-                                      <li><a href="#">Separated link</a></li>
-                              </ul>            
-                      </div>
-
+                  <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle " type="button" aria-expanded="false">Tùy chọn <span class="caret"></span></button>
+                    <ul role="menu" class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><input type="submit" value="Xóa các mục đã chọn" name="delcheck"  onclick=" return confirm('Bạn đã chắc chắn ?')" class=" btn-block"></li>
+                            <li><input type="submit" name="statuscheck" onclick="return confirm('Bạn chắc chắn đã chọn ?')" value="Thay đổi trạng thái ẩn hiện"  class=" btn-block"></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                    </ul>            
+              </div>
 
              <?php if($this->session->flashdata('message')):?>
                 <div class="col-xs-4 thang" style="z-index :99;position:fixed;right:10px;top:100px">
@@ -154,9 +152,6 @@
             </div>
          </div>
         <div class="modal-footer">
-         
-           
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           <button type="submit" class="btn btn-primary">Cập nhật</button>
         </div>
 

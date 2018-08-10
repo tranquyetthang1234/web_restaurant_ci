@@ -27,6 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/demo.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/style3.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/normalize.css" />
+     <link rel="stylesheet" type="text/css" href="<?php echo public_url()?>css/animate.css" />
 <!-- banner text effect css files -->
 
 <!-- logo text effect css files -->

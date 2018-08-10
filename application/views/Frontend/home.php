@@ -6,7 +6,7 @@
 			<div class="header">
 				<div class="container-fluid">
 					<div class="header-left">
-						<div class="w3layouts-logo grid__item">
+						<div class="w3layouts-logo grid__item  wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
 							<h1>
 								<a class="link link--ilin" href="#"><span><?=$config->txtlog1?></span><span><?=$config->txtlog2?></span></a>
 							</h1>
@@ -51,7 +51,7 @@
 					</div>
 					
 			</div>
-			<div class="agileits-banner-info">
+			<div class="agileits-banner-info wow fadeInLeftBig">
 				<h3>Chào mừng</h3>
 					<h2 class="rw-sentence">
 					<span>Món ăn ngon hơn, với những </span>
@@ -125,7 +125,7 @@
 	
 <!-- tabs -->	<!-- about -->
 <div class="demo" id="about">    
-	<div class="container"> 
+	<div class="container wow fadeInDown" > 
 		<div class="w3ls-heading">
 			<h3>About us</h3>
 		</div>
@@ -249,15 +249,15 @@
 	
 <!-- services -->
 <div class="services" id="services">
-		<div class="container">
+		<div class="container wow fadeInDown" data-wow-duration="1s">
 			<div class="ser-top wthree-3 wow fadeInDown w3-service-head">
 				<h3>Dịch Vụ Của Chúng Tôi </h3>
 			</div>
-			<div class="w3-service-grids set-6">
-
-
-				<?php $i=0; foreach ($service as $key => $value) { $i++;?>
-				<div class="col-md-4  services-w3-grid1 ser-left icon1 hi-icon-wrap hi-icon-effect-6">
+			<div class="w3-service-grids set-6 ">
+				<?php $i=0;
+						$time  = array(1,2,2.5,3,4,5,6,7,8,9,10);
+				 foreach ($service as $key => $value) { $i++;?>
+				<div class="col-md-4  services-w3-grid1 ser-left icon1 hi-icon-wrap hi-icon-effect-6 wow fadeInUp data-wow-delay="<?=$time[$i]?>s" style="visibility: visible; animation-delay: <?=$time[$i]?>s; animation-name: fadeInUp;"">
 					<i class="<?=  $value->icon?> hi-icon hi-icon-sort-by-attributes" aria-hidden="true"></i>
 					<h4><?=  $value->title ;?></h4>
 					<p><?=  $value->content?>.</p>
@@ -272,15 +272,17 @@
 <!-- /services -->
 
 <!-- our chefs -->
-<div class="ourchefs" id="chefs">
+<div class="ourchefs wow fadeInUp data-wow-delay="0.5s" " id="chefs">
 	<div class="container">
 		<div class="w3ls-heading">
 			<h3>Đội ngũ nhân viên</h3>
 		</div>
-		<?php foreach ($chef as $key => $value) {
+		<?php $i=0; 
+			$time  = array(1,2,2.5,3,4,5,6,7,8,9,10);
+		 foreach ($chef as $key => $value) {$i++;
 			# code...
 		?>
-		<div class="col-md-3 chef agile_team_grid">
+		<div class="col-md-3 chef agile_team_grid wow fadeInDown data-wow-delay="<?=$time[$i]?>s" style="visibility: visible; animation-delay: <?=$time[$i]?>s; animation-name: fadeInUp;"">
 			<div class="agileits_w3layouts_team_grid">
 				<ul class="agileinfo_social_icons">
 					<li><a href="#" class="w3_agileits_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -300,7 +302,7 @@
 
 	
 <!-- gallery -->
-	<div class="gallery" id="gallery">
+	<div class="gallery wow fadeInDown"  id="gallery">
 			<div class="agileits_w3layouts_head">
 			<h3>Thư viện hình ảnh</h3>
 			</div>
@@ -336,7 +338,7 @@
 <!-- //gallery js -->
 
 <!-- customer -->
-	<div class="customer jarallax" id="customer">
+	<div class="customer jarallax wow fadeOutLeft" id="customer">
 		<div class="agileinfo-dot">
 		<div class="container">
 			<h3>Ý Kiến Đánh Giá Từ Khách Hàng</h3>
@@ -393,7 +395,7 @@
 	
 <!-- contact form -->
 	<div class="contact-w3ls" id="contact">
-		<div class="container">
+		<div class="container  wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
 			<h3>FORM LIÊN HỆ</h3>
 				<form action="<?php echo public_urls()?>index.php/Frontend/OrderTableController/orderTable" method="post">
 					<div class="col-md-5 col-sm-5 contact-left agileits-w3layouts">
@@ -444,7 +446,7 @@
 	</div>
 <!-- //map -->
 <!-- footer -->
-<div class="footer">
+<div class="footer wow zoomIn">
 		<div class="col-md-6 footer-left">
 			<h3>Fresh Food</h3>
 			<?=$config->footer?>
@@ -473,7 +475,6 @@
 <div class="copyright-agile">
 	<p>&copy; 2018 Restaurant. All rights reserved | Design by </a></p>
 </div>
-<h1>My First Google Map</h1>
 
 
 

@@ -36,8 +36,9 @@
                       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                       <strong><?php echo  $this->session->flashdata('message');?>  </strong>
                  </div>
-                 <?php endif;?>
-            </div>
+               
+				</div>
+			  <?php endif;?>
               <div class="adv-table" style="margin-top:6px;">
               <table  style="" class="display table table-bordered table-striped" id="">
               <thead>
